@@ -10,11 +10,8 @@ declare module "iron-session" {
 }
 
 const cookieConfig: IronSessionOptions = {
-  cookieName: "carrotsession",
-  password: process.env.COOKIE_PASSWORD!,
-  cookieOptions: {
-    secure: process.env.NODE_ENV === "production",
-  },
+  cookieName: "twitterclonesession",
+  password: "C4sT3LrJMbh.qAnnFTi4C4sT3LrJMbh.qAnnFTi4C4sT3LrJMbh.qAnnFTi4C4sT3LrJMbh.qAnnFTi4"
 };
 
 export function withApiSession(fn: any) {
